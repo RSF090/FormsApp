@@ -13,10 +13,19 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+  public IActionResult Index(string searchString)
+{
+    var products = Repository.Products;
+
+    if (!string.IsNullOrEmpty(searchString))
     {
-        return View(Repository.Products);
+        ViewBag.SearchString = searchString;
+        products = products.Where(p => p.Name.ToLower().Contains(searchString.ToLower())).ToList();
     }
+
+    return View(products);
+}
+
 
     public IActionResult Privacy()
     {
