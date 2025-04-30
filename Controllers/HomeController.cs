@@ -28,10 +28,35 @@ public class HomeController : Controller
         products = products.Where(p => p.CategoryId == int.Parse(category)).ToList();
     }
     
-    ViewBag.Categories = new SelectList(Repository.Categories,"CategoryId","Name");
-    return View(products);
+    // ViewBag.Categories = new SelectList(Repository.Categories,"CategoryId","Name",category);
+    var model = new ProductViewModel {
+        Products = products,
+        Categories = Repository.Categories,
+        SelectedCategory = category
+    };
+    return View(model);
+}
+[HttpGet]
+public IActionResult Create()
+{
+    ViewBag.Categories = Repository.Categories;
+    return View();
 }
 
+[HttpPost]
+public IActionResult Create(Product model)
+{
+    if (ModelState.IsValid)
+    {
+        Repository.Products.Add(model); // veya dbContext.Products.Add(model);
+        return RedirectToAction("Index");
+    }
+
+    // Hata varsa View tekrar gösteriliyor, ViewBag.Categories tekrar atanmalı!
+    ViewBag.Categories = Repository.Categories;
+    Repository.CreateProduct(model); 
+    return RedirectToAction("Index");
+}
 
     public IActionResult Privacy()
     {
