@@ -5,6 +5,7 @@
 }
 
 <form asp-action="Edit" asp-controller="Home" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="ProductID" />
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control" />

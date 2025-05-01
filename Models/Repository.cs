@@ -40,5 +40,19 @@ namespace FormsApp.Models
                 return _categories; 
                 }
         }
+        public static void EditProduct(Product updatedProduct){
+            {
+                var entity = _products.FirstOrDefault(x => x.ProductID == updatedProduct.ProductID);
+                if (entity != null)
+                {
+                    entity.Name = updatedProduct.Name;
+                    entity.Price = updatedProduct.Price;
+                    entity.Image = updatedProduct.Image;
+                    entity.IsActive = updatedProduct.IsActive;
+                    entity.CategoryId = updatedProduct.CategoryId;
+                }
+            }
     }
+}
+
 }
