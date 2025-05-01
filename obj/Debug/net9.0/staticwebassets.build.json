@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EVTZm5n2KkbSf9DAZpYuZr8Mfiw/GBT9wfL9QNvmR4Q=",
+  "Hash": "GGzEwj3S9AJalZqICgmsYXCIqW2brtmiEF38U7aCBv0=",
   "Source": "FormsApp",
   "BasePath": "_content/FormsApp",
   "Mode": "Default",
@@ -1550,6 +1550,27 @@
       "OriginalItemSpec": "wwwroot\\img\\24.jpg"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\6f943a7c-6486-496e-92b3-3997f53d9262.jpg",
+      "SourceId": "FormsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\",
+      "BasePath": "_content/FormsApp",
+      "RelativePath": "img/6f943a7c-6486-496e-92b3-3997f53d9262#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "agedfls2pi",
+      "Integrity": "llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\6f943a7c-6486-496e-92b3-3997f53d9262.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\msı1.jpg",
       "SourceId": "FormsApp",
       "SourceType": "Discovered",
@@ -1590,27 +1611,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\rog1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\s23.jpg",
-      "SourceId": "FormsApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\",
-      "BasePath": "_content/FormsApp",
-      "RelativePath": "img/s23#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "agedfls2pi",
-      "Integrity": "llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\s23.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\s25.jpg",
@@ -4540,6 +4540,88 @@
       ]
     },
     {
+      "Route": "img/6f943a7c-6486-496e-92b3-3997f53d9262.agedfls2pi.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\6f943a7c-6486-496e-92b3-3997f53d9262.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 13:34:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "agedfls2pi"
+        },
+        {
+          "Name": "label",
+          "Value": "img/6f943a7c-6486-496e-92b3-3997f53d9262.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw="
+        }
+      ]
+    },
+    {
+      "Route": "img/6f943a7c-6486-496e-92b3-3997f53d9262.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\6f943a7c-6486-496e-92b3-3997f53d9262.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 13:34:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw="
+        }
+      ]
+    },
+    {
       "Route": "img/msı1.fre64m67gc.jpg",
       "AssetFile": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\msı1.jpg",
       "Selectors": [],
@@ -4700,88 +4782,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-VOspIh0vaMpnydtPG30a/zCjTWpgxh6bjgdZwJwZ2IE="
-        }
-      ]
-    },
-    {
-      "Route": "img/s23.agedfls2pi.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\s23.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7298"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 13:29:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "agedfls2pi"
-        },
-        {
-          "Name": "label",
-          "Value": "img/s23.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw="
-        }
-      ]
-    },
-    {
-      "Route": "img/s23.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\Desktop\\Ders\\Staj_hazırlık\\FormsApp\\wwwroot\\img\\s23.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7298"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 13:29:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-llLj9j/aH4z9RxyJN7JGeRhqkyq7bbcWXS60NRKhazw="
         }
       ]
     },

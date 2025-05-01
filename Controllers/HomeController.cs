@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FormsApp.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Reflection;
 
 namespace FormsApp.Controllers;
 
@@ -59,9 +60,11 @@ public async Task<IActionResult> Create(Product model, IFormFile imageFile)
 
         if (ModelState.IsValid)
         {
+            if (imageFile != null){
             using (var stream = new FileStream(path, FileMode.Create))
-            {
-                await imageFile.CopyToAsync(stream);
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
             }
             model.Image = randomFileName;
             model.ProductID = Repository.Products.Count + 1; 
@@ -80,14 +83,22 @@ public async Task<IActionResult> Create(Product model, IFormFile imageFile)
     return RedirectToAction("Index");
 }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+
+
+[HttpGet]
+public IActionResult Edit(int? id)
+{
+    if (id == null)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return NotFound();
     }
+    var entity = Repository.Products.FirstOrDefault(p => p.ProductID == id);
+    if (entity == null)
+    {
+        return NotFound();
+    }
+    ViewBag.Categories = Repository.Categories;
+    return View(entity);
+}
 } 
